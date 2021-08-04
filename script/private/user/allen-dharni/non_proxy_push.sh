@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 #!/bin/bash
 
-# chmod +xrw ./script/private/user/kevin-nicks/non_proxy_push.sh
+# chmod +xrw ./script/private/user/allen-dharni/non_proxy_push.sh
 
 echo "
 ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -32,22 +32,22 @@ echo "\n"
 
 echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  🔐   UnSet Proxy -> HTTP  🔓 "
 git config --global --unset http.proxy
-sleep 1
+#sleep 1
 echo "\n"
 
 echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  🔐   UnSet Proxy -> HTTPS  🔓  \n"
 git config --global --unset https.proxy
-sleep 2
+#sleep 2
 echo "\n"
 
 echo "\n<Automated Execution Command 🕒  $(date +%00000:%S)>:  \$>_  📮   Push 'Dev' Branch  📤\n"
 git push origin dev
-sleep 2
+#sleep 2
 echo "\n"
 
 echo "\n<Automated Execution Command 🕓  $(date +%00000:%S)>:  \$_>  🌈   Checkout 'Main' Branch  🕹\n"
 git checkout main
-sleep 2
+#sleep 2
 echo "\n"
 
 echo "\n<Automated Execution Command 🕔  $(date +%00000:%S)>:  \$>_  📬   Merge 'Dev' Branch  📤 \n"
@@ -64,7 +64,7 @@ echo "\n"
 
 echo "\n<Automated Execution Command 🕕  $(date +%00000:%S)>:  \$_>  🚀   Push 'Main' Branch  🏆\n"
 git push origin main
-sleep 2
+#sleep 2
 echo "\n"
 
 echo "\n<Automated Execution Command 🕖  $(date +%00000:%S)>:  \$>_  🤫   Checkout 'Dev' Branch  🏁\n"
