@@ -39,7 +39,7 @@ echo "\n"
 
 echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  💬   Submit The Local 'Dev' Branch To The Remote Bran  📲\n"
 git add .
-git commit -m "Success Build Dev Branch"
+git commit -m "Automation Build - Dev Branch"
 sleep 2
 echo "\n"
 
