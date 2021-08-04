@@ -23,7 +23,7 @@ echo "
 "
 
 echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  ♻️   Pull 'Dev' Branch DataSet  🔐  "
-git pull
+git pull origin dev
 sleep 1
 echo "\n"
 
@@ -33,7 +33,7 @@ sleep 1
 echo "\n"
 
 echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  📥   Pull 'Main' DataSet  📥\n"
-git pull
+git pull origin main
 sleep 2
 echo "\n"
 
