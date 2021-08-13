@@ -1,1 +1,66 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: ANON SYS
+SEOTitle: "ANONYMOUS"
+email: anonymous-sys@onion.org
+description: WE ARE ANONYMOUS SYS. WE ARE LEGION.
+keyword: "ANONYMOUS"
+locale: en-US
+baseurl: ""
+url: "https://anonymous-sys.github.io"
+favicon: "assets/resource/icon/favassets/icon-32x32.png"
+twitter_username: sys
+github_username:  sys
+
+navs:
+  -
+    href: /
+    label: Home
+  -
+    href: /activity
+    label: Activity
+  -
+    href: /explore
+    label: Explore
+  -
+    href: /enterprise
+    label: Enterprise
+  -
+    href: /marketplace
+    label: Marketplace
+    
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+
+# Pagination
+#paginate: 10
+#paginate_path: 'page:num'
+# bundle exec jekyll serve
+
+ # Featured Tags
+#featured-tags: true  
+#featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

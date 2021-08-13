@@ -1,0 +1,63 @@
+<!-- header -->
+<header class="header">
+  <div class="header__content">
+    <div class="header__logo">
+      <a href="/">
+      <img src="assets/resource/common/anonymous_sys_org-v3.svg" alt="{{ site.title }}"> 
+      </a>
+    </div>
+    <form class="header__search">
+      <input type="text" placeholder="Search items, collections, and creators">
+      <button type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M21.71,20.29,18,16.61A9,9,0,1,0,16.61,18l3.68,3.68a1,1,0,0,0,1.42,0A1,1,0,0,0,21.71,20.29ZM11,18a7,7,0,1,1,7-7A7,7,0,0,1,11,18Z"/>
+        </svg>
+      </button>
+      <button type="button" class="close">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"/>
+        </svg>
+      </button>
+    </form>
+    <div class="header__menu">
+      <ul class="header__nav">
+        {% for nav in site.navs %}
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="{{ nav.href }}" title="{{ nav.label }}" role="button" id="dropdownMenuHome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          {{ nav.label }}
+          </a>
+        </li>
+        {% endfor %}
+        <li class="header__nav-item">
+          <a class="header__nav-link header__nav-link--menu" href="" role="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M12,10a2,2,0,1,0,2,2A2,2,0,0,0,12,10ZM5,10a2,2,0,1,0,2,2A2,2,0,0,0,5,10Zm14,0a2,2,0,1,0,2,2A2,2,0,0,0,19,10Z"/>
+            </svg>
+          </a>
+          <ul class="dropdown-menu header__nav-menu" aria-labelledby="dropdownMenu2">
+            <li><a href="">Test Data</a></li>
+            <li><a href="">Test Data</a></li>
+            <li><a href="">Test Data</a></li>
+            <li><a href="">Test Data</a></li>
+            <li><a href="">Test Data</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="header__actions">
+      <div class="header__action header__action--search">
+        <button class="header__action-btn" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21.71,20.29,18,16.61A9,9,0,1,0,16.61,18l3.68,3.68a1,1,0,0,0,1.42,0A1,1,0,0,0,21.71,20.29ZM11,18a7,7,0,1,1,7-7A7,7,0,0,1,11,18Z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <button class="header__btn" type="button">
+    <span></span>
+    <span></span>
+    <span></span>
+    </button>
+  </div>
+</header>
+<!-- end header -->
