@@ -5384,7 +5384,7 @@ body::-webkit-scrollbar-thumb {
 }
 .page-404__btn:hover {
   color: #fff;
-  background-color: #222227;
+  background-color: #2d4148;
 }
 @media (min-width: 576px) {
   .page-404__content {
