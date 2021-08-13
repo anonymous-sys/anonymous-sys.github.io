@@ -5353,7 +5353,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 100px;
   margin-bottom: 10px;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Do Hyeon', sans-serif;
 }
 .page-404__text {
   text-align: center;
@@ -5363,6 +5363,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 30px;
+  font-family: 'Do Hyeon', sans-serif;
 }
 .page-404__btn {
   width: 100%;
