@@ -387,10 +387,10 @@ body::-webkit-scrollbar-thumb {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-color: #16151a;
+  background-color: #0F161C;
   z-index: 1;
   padding: 0 15px;
-  border-bottom: 1px solid #222227;
+  border-bottom: 1px solid #0F161C;
   transition: top 0.5s ease;
 }
 .header__search input {
