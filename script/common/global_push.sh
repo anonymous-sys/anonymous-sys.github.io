@@ -41,7 +41,7 @@ git commit -S -a -m "Automation Build - ANONYMOUS SYS (NETWORK STATION)"
 echo "\n"
 
 echo "\n<Automated Execution Command 🕒  $(date +%00000:%S)>:  \$>_  📮   Push 'Dev' Branch  📤\n"
-git push --set-upstream origin dev
+git push set-upstream origin dev
 sleep 2
 echo "\n"
 

@@ -5334,7 +5334,7 @@ body::-webkit-scrollbar-thumb {
   padding: 25px 0 0;
 }
 .page-404__content {
-  background-color: #16151a;
+  background-color: #0f161c;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -5344,7 +5344,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   width: 100%;
   max-width: 420px;
-  border: 1px solid #222227;
+  border: 1px solid #0f161c;
 }
 .page-404__title {
   position: relative;
