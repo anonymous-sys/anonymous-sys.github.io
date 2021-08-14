@@ -1036,7 +1036,7 @@ body::-webkit-scrollbar-thumb {
 }
 .main__title--border-top {
   padding-top: 55px;
-  border-top: 1px solid #222227;
+  border-top: 2px solid #2d4148;
 }
 .main__title--center {
   justify-content: center;
