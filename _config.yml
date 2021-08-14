@@ -5,7 +5,7 @@ email: anonymous-sys@onion.org
 description: WE ARE ANONYMOUS SYS. WE ARE LEGION.
 keyword: "ANONYMOUS"
 locale: en-US
-baseurl: "/"
+baseurl: ""
 organization: "ANONYMOUS"
 url: "https://anonymous-sys.github.io"
 favicon: "assets/resource/icon/favassets/icon-32x32.png"
