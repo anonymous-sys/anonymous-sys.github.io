@@ -262,7 +262,7 @@ body::-webkit-scrollbar-thumb {
   width: auto;
   height: 70px;
   background-color: #0F161C;
-  border-bottom: 1px solid #0F161C;
+  border-bottom: 2px solid #43ce65;
   z-index: 101;
 }
 .header__content {
@@ -4608,6 +4608,7 @@ body::-webkit-scrollbar-thumb {
 	Footer
 ==============================*/
 .footer {
+  border-top: 2px solid #43ce65;
   background-color: #0F161C;
   padding: 30px 0 20px;
   position: relative;
