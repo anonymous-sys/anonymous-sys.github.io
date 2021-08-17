@@ -4604,7 +4604,6 @@ body::-webkit-scrollbar-thumb {
 	Footer
 ==============================*/
 .footer {
-  margin: 0 -5px;
   border-top: 2px solid #43ce65;
   background-color: #0F161C;
   padding: 30px 0 20px;
@@ -4615,6 +4614,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 60px;
 }
 .footer__logo img {
+  margin: 0 -5px;
   width: auto;
   height: 40px;
   display: block;
