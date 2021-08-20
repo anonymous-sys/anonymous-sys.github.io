@@ -29,6 +29,11 @@ navs:
     href: /marketplace
     label: Marketplace
     
+platform_nextworldhub:
+  -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub
+    label: Next World Hub
+
 # Build settings
 theme: minima
 plugins:
