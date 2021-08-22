@@ -29,7 +29,9 @@ navs:
     href: /marketplace
     label: Marketplace
     
-platform_nextworldhub:
+
+nextworldhub_favicon: "assets/resource/icon/favassets/icon-32x32.png"
+nextworldhub_platform:
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub
     label: Next World Hub
