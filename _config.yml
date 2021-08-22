@@ -1,4 +1,4 @@
-# Site settings
+# anonymous-sys settings
 title: ANON SYS
 SEOTitle: "ANONYMOUS"
 email: anon-sys@onion.org
@@ -28,9 +28,12 @@ navs:
   -
     href: /marketplace
     label: Marketplace
-    
 
-nextworldhub_favicon: "assets/resource/icon/favassets/icon-32x32.png"
+
+# NextWorldHub settings
+nextworldhub_favicon: "assets/resource/icon/favicon.png"
+nextworldhub_title: Next World Hub
+nextworldhub_description: Anon Crypto Exchange Platform
 nextworldhub_platform:
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub

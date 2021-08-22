@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include Serverless/PaaS/nextworldhub/common/nextworldhub-head.html %}
+  <body id="dark">
+    {% include Serverless/PaaS/nextworldhub/common/nextworldhub-header.html %}
+    <div class="container-fluid mtb15 no-fluid">{{ content }}</div>
+    {% include Serverless/PaaS/nextworldhub/common/nextworldhub-footer.html %}
+    <!-- JS -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/amcharts-core.min.js"></script>
+    <script src="assets/js/amcharts.min.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      $('tbody, .market-news ul').mCustomScrollbar({
+        theme: 'minimal',
+      });
+    </script>
+  </body>
+</html>

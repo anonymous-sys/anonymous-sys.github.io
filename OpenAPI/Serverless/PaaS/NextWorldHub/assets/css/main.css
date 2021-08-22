@@ -1787,7 +1787,6 @@ tbody.ob-heading {
     /**width: auto;
     height: 70px;**/
     width: auto;
-    height: 70px;
     z-index: 101;
     background: #0F161C;
 }
@@ -1797,7 +1796,7 @@ tbody.ob-heading {
 }
 
 #dark header nav a:hover {
-    color: #007bff;
+    color: #43CE65;
 }
 
 #dark header nav a.btn:hover {
