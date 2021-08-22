@@ -17,11 +17,28 @@
         <i class="icon ion-md-menu"></i>
         </button>
         <div class="collapse navbar-collapse" id="headerMenu">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a aria-current="page" href="/" class="router-link-active router-link-exact-active nav-link active">Exchange</a></li>
+            <li class="nav-item"><a href="/markets" class="nav-link">Markets</a></li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="///" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Home
-              </a>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dashboard </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown1">
+                <li><a href="/profile" class="dropdown-item">Profile</a></li>
+                <li><a href="/wallet" class="dropdown-item">Wallet</a></li>
+                <li><a href="/settings" class="dropdown-item">Settings</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Pages </a>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown2">
+                <li><a href="/login" class="dropdown-item">Login</a></li>
+                <li><a href="/sign-up" class="dropdown-item">Sign up</a></li>
+                <li><a href="/lock" class="dropdown-item">Lock</a></li>
+                <li><a href="/otp-number" class="dropdown-item">OTP Number</a></li>
+                <li><a href="/otp-verify" class="dropdown-item">OTP Verify</a></li>
+                <li><a href="/reset" class="dropdown-item">Reset</a></li>
+                <li><a href="/404" class="dropdown-item">404</a></li>
+              </ul>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
