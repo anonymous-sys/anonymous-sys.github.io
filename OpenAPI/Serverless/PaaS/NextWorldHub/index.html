@@ -16,31 +16,27 @@
           aria-controls="headerMenu" aria-expanded="false" aria-label="Toggle navigation">
         <i class="icon ion-md-menu"></i>
         </button>
-
-
-        <div class="navbar-collapse collapse" id="headerMenu">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item"><a aria-current="page" href="/" class="router-link-active router-link-exact-active nav-link active">Exchange</a></li>
-            <li class="nav-item"><a href="/markets" class="nav-link">Markets</a></li>
+        <div class="navbar-collapse collapse" id="headerMenu" style="">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dashboard </a>
-              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown1">
-                <li><a href="/profile" class="dropdown-item">Profile</a></li>
-                <li><a href="/wallet" class="dropdown-item">Wallet</a></li>
-                <li><a href="/settings" class="dropdown-item">Settings</a></li>
-              </ul>
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Exchange
+              </a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Pages </a>
-              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown2">
-                <li><a href="/login" class="dropdown-item">Login</a></li>
-                <li><a href="/sign-up" class="dropdown-item">Sign up</a></li>
-                <li><a href="/lock" class="dropdown-item">Lock</a></li>
-                <li><a href="/otp-number" class="dropdown-item">OTP Number</a></li>
-                <li><a href="/otp-verify" class="dropdown-item">OTP Verify</a></li>
-                <li><a href="/reset" class="dropdown-item">Reset</a></li>
-                <li><a href="/404" class="dropdown-item">404</a></li>
-              </ul>
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Markets
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dashboard
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Others
+              </a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
@@ -50,18 +46,17 @@
               </a>
             </li>
             <li class="nav-item dropdown header-custom-icon">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="icon ion-md-notifications"></i>
               <span class="circle-pulse"></span>
               </a>
               <div class="dropdown-menu">
                 <div class="dropdown-header d-flex align-items-center justify-content-between">
                   <p class="mb-0 font-weight-medium">6 New Notifications</p>
-                  <a href="#" class="text-muted">Clear all</a>
+                  <a href="#!" class="text-muted">Clear all</a>
                 </div>
                 <div class="dropdown-body">
-                  <a href="#" class="dropdown-item">
+                  <a href="#!" class="dropdown-item">
                     <div class="icon">
                       <i class="icon ion-md-lock"></i>
                     </div>
@@ -70,7 +65,7 @@
                       <p class="sub-text text-muted">5 sec ago</p>
                     </div>
                   </a>
-                  <a href="#" class="dropdown-item">
+                  <a href="#!" class="dropdown-item">
                     <div class="icon">
                       <i class="icon ion-md-alert"></i>
                     </div>
@@ -79,7 +74,7 @@
                       <p class="sub-text text-muted">10 min ago</p>
                     </div>
                   </a>
-                  <a href="#" class="dropdown-item">
+                  <a href="#!" class="dropdown-item">
                     <div class="icon">
                       <i class="icon ion-logo-android"></i>
                     </div>
@@ -88,7 +83,7 @@
                       <p class="sub-text text-muted">1 hrs ago</p>
                     </div>
                   </a>
-                  <a href="#" class="dropdown-item">
+                  <a href="#!" class="dropdown-item">
                     <div class="icon">
                       <i class="icon ion-logo-bitcoin"></i>
                     </div>
@@ -97,7 +92,7 @@
                       <p class="sub-text text-muted">2 hrs ago</p>
                     </div>
                   </a>
-                  <a href="#" class="dropdown-item">
+                  <a href="#!" class="dropdown-item">
                     <div class="icon">
                       <i class="icon ion-logo-usd"></i>
                     </div>
@@ -108,13 +103,12 @@
                   </a>
                 </div>
                 <div class="dropdown-footer d-flex align-items-center justify-content-center">
-                  <a href="#">View all</a>
+                  <a href="#!">View all</a>
                 </div>
               </div>
             </li>
             <li class="nav-item dropdown header-img-icon">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <img src="https://avatars.githubusercontent.com/u/48172110" alt="avatar">
               </a>
               <div class="dropdown-menu">
@@ -148,13 +142,13 @@
                       </a>
                     </li>
                     <li class="nav-item" id="changeThemeDark">
-                      <a href="#" class="nav-link">
+                      <a href="#!" class="nav-link">
                       <i class="icon ion-md-moon"></i>
                       <span>Theme</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="" class="nav-link red">
+                      <a href="exchange-dark.html" class="nav-link red">
                       <i class="icon ion-md-power"></i>
                       <span>Log Out</span>
                       </a>
