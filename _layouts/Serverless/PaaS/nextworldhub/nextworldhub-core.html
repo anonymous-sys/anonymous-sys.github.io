@@ -18,5 +18,20 @@
         theme: 'minimal',
       });
     </script>
+    <script>
+      function x_function(){
+      var now = new Date();
+      var seconds = now.getSeconds();
+       if(seconds<10){
+      seconds = "0"+seconds; 
+      }
+        if(seconds>0){
+      seconds = "00:"+seconds; 
+      }
+      document.getElementById("x_function").innerHTML = seconds;
+      setTimeout('x_function()', 1000);
+      }
+      x_function();
+    </script>
   </body>
 </html>
