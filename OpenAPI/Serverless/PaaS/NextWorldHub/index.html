@@ -28,13 +28,13 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-core
                       "isTransparent": false,
                         "width": "100%",
                           "height": "420",
-                            "plotLineColorGrowing": "rgba(252, 64, 23, 1)",
-                              "plotLineColorFalling": "rgba(252, 64, 23, 1)",
-                                "gridLineColor": "rgba(252, 64, 23, 1)",
-                                  "scaleFontColor": "rgba(252, 64, 23, 1)",
-                                    "belowLineFillColorGrowing": "rgba(252, 64, 23, 1)",
-                                      "belowLineFillColorFalling": "rgba(252, 64, 23, 1)",
-                                        "symbolActiveColor": "rgba(252, 64, 23, 1)",
+                            "plotLineColorGrowing": "rgb(23 207 252)",
+                              "plotLineColorFalling": "rgb(23 207 252 / 45%)",
+                                "gridLineColor": "rgb(176, 196, 222)",
+                                  "scaleFontColor": "rgb(176, 196, 222)",
+                                    "belowLineFillColorGrowing": "rgb(23 207 252)",
+                                      "belowLineFillColorFalling": "rgb(23 207 252)",
+                                        "symbolActiveColor": "rgb(23 207 252)",
                                           "tabs": [
                                             {
                                               "title": "Indices",
@@ -173,8 +173,8 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-core
                           "height": "420",
                             "plotLineColorGrowing": "rgba(252, 64, 23, 1)",
                               "plotLineColorFalling": "rgba(252, 64, 23, 1)",
-                                "gridLineColor": "rgba(252, 64, 23, 1)",
-                                  "scaleFontColor": "rgba(252, 64, 23, 1)",
+                                "gridLineColor": "rgb(176, 196, 222)",
+                                  "scaleFontColor": "rgb(176, 196, 222)",
                                     "belowLineFillColorGrowing": "rgba(252, 64, 23, 1)",
                                       "belowLineFillColorFalling": "rgba(252, 64, 23, 1)",
                                         "symbolActiveColor": "rgba(252, 64, 23, 1)",
@@ -316,8 +316,8 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-core
                           "height": "420",
                             "plotLineColorGrowing": "rgba(173, 255, 47, 1)",
                               "plotLineColorFalling": "rgba(173, 255, 47, 1)",
-                                "gridLineColor": "rgba(173, 255, 47, 1)",
-                                  "scaleFontColor": "rgba(173, 255, 47, 1)",
+                                "gridLineColor": "rgb(176, 196, 222)",
+                                  "scaleFontColor": "rgb(176, 196, 222)",
                                     "belowLineFillColorGrowing": "rgba(173, 255, 47, 1)",
                                       "belowLineFillColorFalling": "rgba(173, 255, 47, 1)",
                                         "symbolActiveColor": "rgba(173, 255, 47, 1)",
@@ -457,10 +457,153 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-core
                       "isTransparent": false,
                         "width": "100%",
                           "height": "420",
+                            "plotLineColorGrowing": "rgb(155 33 243)",
+                              "plotLineColorFalling": "rgb(155 33 243 / 44%)",
+                                "gridLineColor": "rgb(176, 196, 222)",
+                                  "scaleFontColor": "rgb(176, 196, 222)",
+                                    "belowLineFillColorGrowing": "rgb(155 33 243 / 12%)",
+                                      "belowLineFillColorFalling": "rgb(155 33 243 / 12%)",
+                                        "symbolActiveColor": "rgb(155 33 243 / 12%)",
+                                          "tabs": [
+                                            {
+                                              "title": "Indices",
+                                              "symbols": [
+                                                {
+                                                  "s": "FOREXCOM:SPXUSD",
+                                                  "d": "S&P 500"
+                                                },
+                                                {
+                                                  "s": "FOREXCOM:NSXUSD",
+                                                  "d": "Nasdaq 100"
+                                                },
+                                                {
+                                                  "s": "FOREXCOM:DJI",
+                                                  "d": "Dow 30"
+                                                },
+                                                {
+                                                  "s": "INDEX:NKY",
+                                                  "d": "Nikkei 225"
+                                                },
+                                                {
+                                                  "s": "INDEX:DEU30",
+                                                  "d": "DAX Index"
+                                                },
+                                                {
+                                                  "s": "FOREXCOM:UKXGBP",
+                                                  "d": "FTSE 100"
+                                                }
+                                              ],
+                                              "originalTitle": "Indices"
+                                            },
+                                            {
+                                              "title": "Commodities",
+                                              "symbols": [
+                                                {
+                                                  "s": "CME_MINI:ES1!",
+                                                  "d": "E-Mini S&P"
+                                                },
+                                                {
+                                                  "s": "CME:6E1!",
+                                                  "d": "Euro"
+                                                },
+                                                {
+                                                  "s": "COMEX:GC1!",
+                                                  "d": "Gold"
+                                                },
+                                                {
+                                                  "s": "NYMEX:CL1!",
+                                                  "d": "Crude Oil"
+                                                },
+                                                {
+                                                  "s": "NYMEX:NG1!",
+                                                  "d": "Natural Gas"
+                                                },
+                                                {
+                                                  "s": "CBOT:ZC1!",
+                                                  "d": "Corn"
+                                                }
+                                              ],
+                                              "originalTitle": "Commodities"
+                                            },
+                                            {
+                                              "title": "Bonds",
+                                              "symbols": [
+                                                {
+                                                  "s": "CME:GE1!",
+                                                  "d": "Eurodollar"
+                                                },
+                                                {
+                                                  "s": "CBOT:ZB1!",
+                                                  "d": "T-Bond"
+                                                },
+                                                {
+                                                  "s": "CBOT:UB1!",
+                                                  "d": "Ultra T-Bond"
+                                                },
+                                                {
+                                                  "s": "EUREX:FGBL1!",
+                                                  "d": "Euro Bund"
+                                                },
+                                                {
+                                                  "s": "EUREX:FBTP1!",
+                                                  "d": "Euro BTP"
+                                                },
+                                                {
+                                                  "s": "EUREX:FGBM1!",
+                                                  "d": "Euro BOBL"
+                                                }
+                                              ],
+                                              "originalTitle": "Bonds"
+                                            },
+                                            {
+                                              "title": "Forex",
+                                              "symbols": [
+                                                {
+                                                  "s": "FX:EURUSD"
+                                                },
+                                                {
+                                                  "s": "FX:GBPUSD"
+                                                },
+                                                {
+                                                  "s": "FX:USDJPY"
+                                                },
+                                                {
+                                                  "s": "FX:USDCHF"
+                                                },
+                                                {
+                                                  "s": "FX:AUDUSD"
+                                                },
+                                                {
+                                                  "s": "FX:USDCAD"
+                                                }
+                                              ],
+                                              "originalTitle": "Forex"
+                                            }
+                                          ]
+          }
+        </script>
+      </div>
+      <!-- TradingView Widget END -->
+    </div>
+    <div class="col-md-2">
+      <!-- TradingView Widget BEGIN -->
+      <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <script type="text/javascript"
+          src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+          {
+            "colorTheme": "dark",
+              "dateRange": "1d",
+                "showChart": true,
+                  "locale": "en",
+                    "largeChartUrl": "",
+                      "isTransparent": false,
+                        "width": "100%",
+                          "height": "420",
                             "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
                               "plotLineColorFalling": "rgba(25, 118, 210, 1)",
-                                "gridLineColor": "rgba(42, 46, 57, 1)",
-                                  "scaleFontColor": "rgba(120, 123, 134, 1)",
+                                "gridLineColor": "rgb(176, 196, 222)",
+                                  "scaleFontColor": "rgb(176, 196, 222)",
                                     "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
                                       "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
                                         "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
@@ -602,151 +745,8 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-core
                           "height": "420",
                             "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
                               "plotLineColorFalling": "rgba(25, 118, 210, 1)",
-                                "gridLineColor": "rgba(42, 46, 57, 1)",
-                                  "scaleFontColor": "rgba(120, 123, 134, 1)",
-                                    "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
-                                      "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
-                                        "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
-                                          "tabs": [
-                                            {
-                                              "title": "Indices",
-                                              "symbols": [
-                                                {
-                                                  "s": "FOREXCOM:SPXUSD",
-                                                  "d": "S&P 500"
-                                                },
-                                                {
-                                                  "s": "FOREXCOM:NSXUSD",
-                                                  "d": "Nasdaq 100"
-                                                },
-                                                {
-                                                  "s": "FOREXCOM:DJI",
-                                                  "d": "Dow 30"
-                                                },
-                                                {
-                                                  "s": "INDEX:NKY",
-                                                  "d": "Nikkei 225"
-                                                },
-                                                {
-                                                  "s": "INDEX:DEU30",
-                                                  "d": "DAX Index"
-                                                },
-                                                {
-                                                  "s": "FOREXCOM:UKXGBP",
-                                                  "d": "FTSE 100"
-                                                }
-                                              ],
-                                              "originalTitle": "Indices"
-                                            },
-                                            {
-                                              "title": "Commodities",
-                                              "symbols": [
-                                                {
-                                                  "s": "CME_MINI:ES1!",
-                                                  "d": "E-Mini S&P"
-                                                },
-                                                {
-                                                  "s": "CME:6E1!",
-                                                  "d": "Euro"
-                                                },
-                                                {
-                                                  "s": "COMEX:GC1!",
-                                                  "d": "Gold"
-                                                },
-                                                {
-                                                  "s": "NYMEX:CL1!",
-                                                  "d": "Crude Oil"
-                                                },
-                                                {
-                                                  "s": "NYMEX:NG1!",
-                                                  "d": "Natural Gas"
-                                                },
-                                                {
-                                                  "s": "CBOT:ZC1!",
-                                                  "d": "Corn"
-                                                }
-                                              ],
-                                              "originalTitle": "Commodities"
-                                            },
-                                            {
-                                              "title": "Bonds",
-                                              "symbols": [
-                                                {
-                                                  "s": "CME:GE1!",
-                                                  "d": "Eurodollar"
-                                                },
-                                                {
-                                                  "s": "CBOT:ZB1!",
-                                                  "d": "T-Bond"
-                                                },
-                                                {
-                                                  "s": "CBOT:UB1!",
-                                                  "d": "Ultra T-Bond"
-                                                },
-                                                {
-                                                  "s": "EUREX:FGBL1!",
-                                                  "d": "Euro Bund"
-                                                },
-                                                {
-                                                  "s": "EUREX:FBTP1!",
-                                                  "d": "Euro BTP"
-                                                },
-                                                {
-                                                  "s": "EUREX:FGBM1!",
-                                                  "d": "Euro BOBL"
-                                                }
-                                              ],
-                                              "originalTitle": "Bonds"
-                                            },
-                                            {
-                                              "title": "Forex",
-                                              "symbols": [
-                                                {
-                                                  "s": "FX:EURUSD"
-                                                },
-                                                {
-                                                  "s": "FX:GBPUSD"
-                                                },
-                                                {
-                                                  "s": "FX:USDJPY"
-                                                },
-                                                {
-                                                  "s": "FX:USDCHF"
-                                                },
-                                                {
-                                                  "s": "FX:AUDUSD"
-                                                },
-                                                {
-                                                  "s": "FX:USDCAD"
-                                                }
-                                              ],
-                                              "originalTitle": "Forex"
-                                            }
-                                          ]
-          }
-        </script>
-      </div>
-      <!-- TradingView Widget END -->
-    </div>
-    <div class="col-md-2">
-      <!-- TradingView Widget BEGIN -->
-      <div class="tradingview-widget-container">
-        <div class="tradingview-widget-container__widget"></div>
-        <script type="text/javascript"
-          src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
-          {
-            "colorTheme": "dark",
-              "dateRange": "1d",
-                "showChart": true,
-                  "locale": "en",
-                    "largeChartUrl": "",
-                      "isTransparent": false,
-                        "width": "100%",
-                          "height": "420",
-                            "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
-                              "plotLineColorFalling": "rgba(25, 118, 210, 1)",
-                                "gridLineColor": "rgba(42, 46, 57, 1)",
-                                  "scaleFontColor": "rgba(120, 123, 134, 1)",
+                                "gridLineColor": "rgb(176, 196, 222)",
+                                  "scaleFontColor": "rgb(176, 196, 222)",
                                     "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
                                       "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
                                         "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
