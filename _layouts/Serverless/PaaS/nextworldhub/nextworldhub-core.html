@@ -14,11 +14,6 @@
     <script src="assets/js/jquery.mCustomScrollbar.js"></script>
     <script src="assets/js/custom.js"></script>
     <script>
-      $('tbody, .market-news ul').mCustomScrollbar({
-        theme: 'minimal',
-      });
-    </script>
-    <script>
       function x_function(){
       var now = new Date();
       var seconds = now.getSeconds();
@@ -28,7 +23,8 @@
         if(seconds>0){
       seconds = "00:"+seconds; 
       }
-      document.getElementsByClassName(".x_function").innerHTML = seconds;
+      document.getElementById('x_function').value = seconds;
+      /**document.getElementsByClassName("x_function").innerHTML = seconds;**/
       setTimeout('x_function()', 1000);
       }
       x_function();
