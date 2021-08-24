@@ -1636,7 +1636,7 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-core
       <!-- TradingView Widget BEGIN -->
       <div class="tradingview-widget-container">
         <div id="tradingview_e8053"></div>
-        <script src="https://s3.tradingview.com/tv.js" async>{"isTransparent": true}</script>
+        <script src="https://s3.tradingview.com/tv.js"></script>
         <script>
           new TradingView.widget(
             {
@@ -1645,6 +1645,7 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-core
               "symbol": "BITSTAMP:BTCUSD",
               "interval": "1",
               "timezone": "America/New_York",
+              "isTransparent": true
               /**"timezone": "Etc/UTC",**/
               "theme": "Dark",
               "style": "3",
