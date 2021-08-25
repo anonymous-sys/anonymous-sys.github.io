@@ -1953,7 +1953,7 @@ tbody.ob-heading {
 }
 
 #dark .market-history .nav {
-    background: repeating-linear-gradient(95deg, #0f161c, #19232b 2000px);
+    background: repeating-linear-gradient(95deg, #0f161c, #19232b 100%);
 }
 
 #dark .market-history .nav-link.active {
