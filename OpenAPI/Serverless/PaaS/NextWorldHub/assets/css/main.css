@@ -133,6 +133,14 @@ tbody tr:hover {
     color: #4a4a4a;
 }
 
+.headings {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 13px;
+    margin: 0;
+    color: #4a4a4a;
+}
+
 .green {
     color: #26de81;
 }
@@ -1911,6 +1919,10 @@ tbody.ob-heading {
 
 #dark .heading {
     background: repeating-linear-gradient(95deg, #0f161c, #19232b 100%);
+    color: #b0c4de;
+}
+
+#dark .headings {
     color: #b0c4de;
 }
 
