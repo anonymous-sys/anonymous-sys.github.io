@@ -35,12 +35,12 @@ nextworldhub_title: Next World Hub
 nextworldhub_description: Anon Crypto Exchange Platform
 nextworldhub_platform:
   -
-    href: /OpenAPI/?Actions=Serverless&Platform=PaaS&Products=NextWorldHub
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub
     label: Next World Hub
 
 backup_platforms:
   -
-    href: /OpenAPI/Serverless/PaaS/NextWorldHub
+    href: /OpenAPI/?Actions=Serverless&Platform=PaaS&Products=NextWorldHub
     label: Next World Hub
 
 # Build settings
