@@ -1,0 +1,170 @@
+---
+permalink: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Settings
+layout: Serverless/PaaS/nextworldhub/nextworldhub-common
+---
+
+<div class="settings mtb15">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-md-12 col-lg-3">
+		  <div class="nav flex-column nav-pills settings-nav" id="v-pills-tab" role="tablist"
+			aria-orientation="vertical">
+			<a class="nav-link" id="settings-profile-tab" data-toggle="pill" href="/OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Profile" role="tab"
+			  aria-controls="settings-profile" aria-selected="true"><i class="icon ion-md-pulse"></i> Profile</a>
+			<a class="nav-link" id="settings-wallet-tab" data-toggle="pill" href="/OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Wallets" role="tab"
+			  aria-controls="settings-wallet" aria-selected="false"><i class="icon ion-md-filing"></i> Wallets</a>
+			<a class="nav-link active" id="settings-tab" data-toggle="pill" href="#settings" role="tab"
+			  aria-controls="settings" aria-selected="false"><i class="icon ion-md-link"></i> Settings</a>
+		  </div>
+		</div>
+		<div class="col-md-12 col-lg-9">
+		  <div class="tab-content" id="v-pills-tabContent">
+			<!--settings-->
+			<div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+			  <div class="card">
+				<div class="card-body">
+				  <h5 class="card-title">Notifications</h5>
+				  <div class="settings-notification">
+					<ul>
+					  <li>
+						<div class="notification-info">
+						  <p>Update Price</p>
+						  <span>Get The Update Price In Your Dashboard.</span>
+						</div>
+						<div class="custom-control custom-switch">
+						  <input type="checkbox" class="custom-control-input" id="notification1">
+						  <label class="custom-control-label" for="notification1"></label>
+						</div>
+					  </li>
+					  <li>
+						<div class="notification-info">
+						  <p>2FA</p>
+						  <span>Unable Two Factor Authentication Service.</span>
+						</div>
+						<div class="custom-control custom-switch">
+						  <input type="checkbox" class="custom-control-input" id="notification2" checked>
+						  <label class="custom-control-label" for="notification2"></label>
+						</div>
+					  </li>
+					  <li>
+						<div class="notification-info">
+						  <p>Latest News</p>
+						  <span>Get The Latest News In Your Mail.</span>
+						</div>
+						<div class="custom-control custom-switch">
+						  <input type="checkbox" class="custom-control-input" id="notification3">
+						  <label class="custom-control-label" for="notification3"></label>
+						</div>
+					  </li>
+					  <li>
+						<div class="notification-info">
+						  <p>Email Service</p>
+						  <span>Get Security Code In Your Mail.</span>
+						</div>
+						<div class="custom-control custom-switch">
+						  <input type="checkbox" class="custom-control-input" id="notification4" checked>
+						  <label class="custom-control-label" for="notification4"></label>
+						</div>
+					  </li>
+					  <li>
+						<div class="notification-info">
+						  <p>Phone Notify</p>
+						  <span>Get Transition Notification In Your Phone.</span>
+						</div>
+						<div class="custom-control custom-switch">
+						  <input type="checkbox" class="custom-control-input" id="notification5" checked>
+						  <label class="custom-control-label" for="notification5"></label>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			  <div class="card settings-profile">
+				<div class="card-body">
+				  <h5 class="card-title">Create API Key</h5>
+				  <div class="form-row">
+					<div class="col-md-6">
+					  <label for="generateKey">Generate Key Name</label>
+					  <input id="generateKey" type="text" class="form-control" placeholder="Enter U Key Name">
+					</div>
+					<div class="col-md-6">
+					  <label for="rewritePassword">Confirm Password</label>
+					  <input id="rewritePassword" type="password" class="form-control"
+						placeholder="Confirm U Password">
+					</div>
+					<div class="col-md-12">
+					  <input type="submit" value="Create API key">
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="card">
+				<div class="card-body">
+				  <h5 class="card-title">Your API Keys</h5>
+				  <div class="wallet-history">
+					<table class="table">
+					  <thead>
+						<tr>
+						  <th>No.</th>
+						  <th>Key</th>
+						  <th>Status</th>
+						  <th>Action</th>
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  <td>1</td>
+						  <td>ZRMWVCRAZ1C0RZKFMU7K5V0KWC9JUJLT</td>
+						  <td>
+							<div class="custom-control custom-switch">
+							  <input type="checkbox" class="custom-control-input" id="apiStatus1" checked>
+							  <label class="custom-control-label" for="apiStatus1"></label>
+							</div>
+						  </td>
+						  <td><i class="icon ion-md-trash"></i></td>
+						</tr>
+						<tr>
+						  <td>2</td>
+						  <td>RV5DGNKDMVPYHWXEEXBYZ8UFWYQZ3JVG</td>
+						  <td>
+							<div class="custom-control custom-switch">
+							  <input type="checkbox" class="custom-control-input" id="apiStatus2">
+							  <label class="custom-control-label" for="apiStatus2"></label>
+							</div>
+						  </td>
+						  <td><i class="icon ion-md-trash"></i></td>
+						</tr>
+						<tr>
+						  <td>3</td>
+						  <td>VXEYIS1HWGMTKTUMA4AKNJSEJJEPZIWU</td>
+						  <td>
+							<div class="custom-control custom-switch">
+							  <input type="checkbox" class="custom-control-input" id="apiStatus3">
+							  <label class="custom-control-label" for="apiStatus3"></label>
+							</div>
+						  </td>
+						  <td><i class="icon ion-md-trash"></i></td>
+						</tr>
+						<tr>
+						  <td>4</td>
+						  <td>M01DUEJ4X3AWI1SSLGT3CP1EELSNQT8O</td>
+						  <td>
+							<div class="custom-control custom-switch">
+							  <input type="checkbox" class="custom-control-input" id="apiStatus4">
+							  <label class="custom-control-label" for="apiStatus4"></label>
+							</div>
+						  </td>
+						  <td><i class="icon ion-md-trash"></i></td>
+						</tr>
+					  </tbody>
+					</table>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>

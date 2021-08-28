@@ -40,6 +40,12 @@ nextworldhub_platform_(core):
 
 nextworldhub_platform_(actions):
   -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Settings
+    label: Settings
+  -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Profile
+    label: Profile
+  -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Wallets
     label: Wallet
 

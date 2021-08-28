@@ -1572,6 +1572,7 @@ tbody.ob-heading {
 
 .settings-nav .nav-link i {
     margin-right: 10px;
+    font-size: 16px;
 }
 
 .settings .card-title {
@@ -1592,7 +1593,7 @@ tbody.ob-heading {
 }
 
 .settings-profile input[type='submit'] {
-    background: #007bff;
+    background: #43ce65;
     color: #fff;
     font-weight: 600;
     padding: 10px 25px;
@@ -1612,7 +1613,7 @@ tbody.ob-heading {
 }
 
 .settings-profile .custom-file label:after {
-    background: #007bff;
+    background: #43ce65;
     color: #fff;
     font-weight: 600;
 }
@@ -1636,7 +1637,7 @@ tbody.ob-heading {
 }
 
 .settings .wallet .nav-pills a.active {
-    background: #0f7dff;
+    background: #43CE65;
 }
 
 .settings .wallet .nav-pills a {
@@ -1679,7 +1680,7 @@ tbody.ob-heading {
 
 .settings .wallet .tab-content li i {
     font-size: 22px;
-    color: #0f7dff;
+    color: #43ce65;
     background: rgba(15, 125, 255, 0.13);
     width: 40px;
     height: 40px;
@@ -1738,8 +1739,8 @@ tbody.ob-heading {
 
 .settings .wallet-address .input-group-prepend button {
     padding: 13px 20px;
-    border-top-right-radius: 5px !important;
-    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
 }
 
 .settings .wallet-address input {
@@ -1832,7 +1833,7 @@ tbody.ob-heading {
 }
 
 #dark tr {
-    background: repeating-linear-gradient(95deg, #0f161c, #19232b 100%);
+    /**background: repeating-linear-gradient(95deg, #0f161c, #19232b 100%);**/
 }
 
 #dark .market-pairs .table td,
@@ -2070,7 +2071,7 @@ tbody.ob-heading {
 
 #dark thead th,
 #dark .markets-pair-list .nav-link {
-    color: #758696;
+    color: #b0c4de;
 }
 
 #dark .markets-pair-list .load-more {
@@ -2113,8 +2114,8 @@ tbody.ob-heading {
 
 #dark .custom-control-input:checked ~ .custom-control-label::before {
     color: #fff;
-    border-color: #007bff;
-    background-color: #007bff;
+    border-color: #43ce65;
+    background-color: #43ce65;
 }
 
 #dark .dropdown-menu::before {
@@ -2187,7 +2188,9 @@ tbody.ob-heading {
 }
 
 #dark .wallet .nav {
-    background: #1e222d;
+    background: repeating-linear-gradient(95deg, #0f161c, #19232b 100%);
+    border: 1px solid #0f161c;
+    border-radius: 4px;
 }
 
 #dark .wallet h2,
@@ -2210,13 +2213,13 @@ tbody.ob-heading {
 }
 
 #dark .wallet-history tr {
-    background: #1e222d;
+    /**background: #1e222d;**/
 }
 
 #dark .wallet-address input,
 #dark .wallet-address input:focus {
-    border: 1px solid #2a2e39;
-    background: #2a2e39;
+    border: 1px solid #43ce65;
+    background: repeating-linear-gradient(95deg, #43ce6552, #43ce6547 100%);
     box-shadow: none;
     color: #ffffff;
 }
@@ -2236,15 +2239,19 @@ tbody.ob-heading {
 }
 
 #dark .settings .card {
-    background: #1e222d;
+    background: repeating-linear-gradient(95deg, #0f161c, #19232b 100%);
+    border: 1px solid #0f161c;
+    border-radius: 4px;
 }
 
 #dark .settings .card-title {
-    color: #fff;
+    color: #b0c4de;
 }
 
 #dark .settings-nav {
-    background: #1e222d;
+    background: repeating-linear-gradient(95deg, #0f161c, #19232b 100%);
+    border: 1px solid #0f161c;
+    border-radius: 4px;
 }
 
 #dark .settings-nav .nav-link {
@@ -2278,7 +2285,7 @@ tbody.ob-heading {
 }
 
 #dark .settings-profile input[type='submit'] {
-    border: 1px solid #007bff;
+    border: 1px solid #43ce65;
 }
 
 #dark .btn-1:hover,
