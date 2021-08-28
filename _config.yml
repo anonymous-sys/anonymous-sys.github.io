@@ -39,7 +39,7 @@ nextworldhub_platform:
     label: Next World Hub
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/actions/?request=/assets/wallet
-    label: Next World Hub    
+    label: Wallet    
 
 backup_platforms:
   -

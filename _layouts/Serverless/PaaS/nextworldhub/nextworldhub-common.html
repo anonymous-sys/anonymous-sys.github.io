@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include Serverless/PaaS/nextworldhub/common/nextworldhub-head.html %}
+  <body id="dark">
+    {% include Serverless/PaaS/nextworldhub/common/nextworldhub-header.html %}
+
+    {{ content }}
+    
+    {% include Serverless/PaaS/nextworldhub/common/nextworldhub-footer.html %}
+    <!-- JS -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/amcharts-core.min.js"></script>
+    <script src="assets/js/amcharts.min.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      function x_function(){
+      var now = new Date();
+      var seconds = now.getSeconds();
+       if(seconds<10){
+      seconds = "0"+seconds; 
+      }
+        if(seconds>0){
+      seconds = "00:"+seconds; 
+      }
+      document.getElementById('x_function').innerHTML = seconds;
+      /**document.getElementsByClassName("x_function").innerHTML = seconds;**/
+      setTimeout('x_function()', 1000);
+      }
+      x_function();
+    </script>
+  </body>
+</html>
