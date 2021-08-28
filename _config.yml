@@ -37,6 +37,9 @@ nextworldhub_platform:
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub
     label: Next World Hub
+  -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/actions/?request=/assets
+    label: Next World Hub    
 
 backup_platforms:
   -
