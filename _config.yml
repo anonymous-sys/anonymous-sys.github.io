@@ -30,18 +30,20 @@ navs:
 
 
 # NextWorldHub settings
-nextworldhub_favicon: "assets/resource/icon/favicon.png"
+nextworldhub_favicon: "/assets/resource/icon/favicon.png"
 nextworldhub_title: Next World Hub
 nextworldhub_description: Anon Crypto Exchange Platform
-nextworldhub_platform:
+nextworldhub_platform_(core):
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub
     label: Next World Hub
+
+nextworldhub_platform_(actions):
   -
-    href: /OpenAPI/Serverless/PaaS/NextWorldHub/actions/?request/assets/#wallet
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Wallets
     label: Wallet
 
-backup_platforms:
+backup_platform:
   -
     href: /OpenAPI/?Actions=Serverless&Platform=PaaS&Products=NextWorldHub
     label: Next World Hub
