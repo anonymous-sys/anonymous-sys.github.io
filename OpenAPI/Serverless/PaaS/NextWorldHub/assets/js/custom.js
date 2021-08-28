@@ -923,12 +923,12 @@
   $('#changeThemeLight').on('click', function (e) {
     ThemeOn = !ThemeOn;
     if (ThemeOn) {
-      $('#changeThemeLight a i').attr('class', 'icon ion-md-moon');
+      $('#changeThemeLight a i').attr('class', 'icon ion-md-radio-button-on');
       $('header').attr('class', 'dark-bb');
       $('body').attr('id', 'dark');
       $('.navbar-brand img').attr('src', '/OpenAPI/Serverless/PaaS/NextWorldHub/assets/resource/common/nextworldhub-v3.svg');
     } else {
-      $('#changeThemeLight a i').attr('class', 'icon ion-md-sunny');
+      $('#changeThemeLight a i').attr('class', 'icon ion-md-radio-button-off');
       $('header').attr('class', 'light-bb');
       $('body').attr('id', 'light');
       $('.navbar-brand img').attr('src', '/OpenAPI/Serverless/PaaS/NextWorldHub/assets/resource/common/nextworldhub-v3.svg');
@@ -938,12 +938,12 @@
   $('#changeThemeDark').on('click', function (e) {
     ThemeOn = !ThemeOn;
     if (ThemeOn) {
-      $('#changeThemeDark a i').attr('class', 'icon ion-md-sunny');
+      $('#changeThemeDark a i').attr('class', 'icon ion-md-radio-button-off');
       $('header').attr('class', 'light-bb');
       $('body').attr('id', 'light');
       $('.navbar-brand img').attr('src', '/OpenAPI/Serverless/PaaS/NextWorldHub/assets/resource/common/nextworldhub-v3.svg');
     } else {
-      $('#changeThemeDark a i').attr('class', 'icon ion-md-moon');
+      $('#changeThemeDark a i').attr('class', 'icon ion-md-radio-button-on');
       $('header').attr('class', 'dark-bb');
       $('body').attr('id', 'dark');
       $('.navbar-brand img').attr('src', '/OpenAPI/Serverless/PaaS/NextWorldHub/assets/resource/common/nextworldhub-v3.svg');
