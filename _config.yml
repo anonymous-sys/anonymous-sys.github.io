@@ -37,6 +37,9 @@ nextworldhub_platform_(core):
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub
     label: Next World Hub
+  -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Error/404
+    label: Error
 
 nextworldhub_platform_(actions):
   -
