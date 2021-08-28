@@ -8,7 +8,7 @@ locale: en-US
 baseurl: ""
 organization: "ANONYMOUS"
 url: "https://anonymous-sys.github.io"
-favicon: "assets/resource/icon/favassets/icon-32x32.png"
+favicon: "/assets/resource/icon/favassets/icon-32x32.png"
 twitter_username: sys
 github_username:  sys
 navs:
