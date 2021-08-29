@@ -1483,9 +1483,12 @@ tbody.ob-heading {
 
 .form-access button {
     width: 100%;
-    padding: 12px;
+    /**padding: 12px;**/
+    border-radius: 20px;
     font-weight: 600;
     margin-top: 20px;
+    background-color: #26de81;
+    border-color: #26de81;
 }
 
 .form-access .custom-control-label::before,
@@ -1719,7 +1722,7 @@ tbody.ob-heading {
 }
 
 .settings .wallet .tab-content button {
-    padding: 12px 60px;
+    /**padding: 12px 60px;**/
     margin-right: 10px;
     margin-bottom: 20px;
 }
@@ -2152,8 +2155,8 @@ tbody.ob-heading {
     padding: 30px;
     border-radius: 5px;
     min-width: 350px;
-    box-shadow: 0 0 10px 0 #131722;
-    border: 1px solid #2a2e39;
+    background: repeating-linear-gradient(95deg, #0f161c, #19232b 100%);
+    border: 1px solid #0f161c;
 }
 
 #dark .form-access h2,

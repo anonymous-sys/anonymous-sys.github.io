@@ -51,6 +51,9 @@ nextworldhub_platform_(actions):
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Wallets
     label: Wallet
+  -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Locked
+    label: Locked
 
 backup_platform:
   -
