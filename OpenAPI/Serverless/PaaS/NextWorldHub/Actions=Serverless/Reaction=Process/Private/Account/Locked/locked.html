@@ -7,7 +7,7 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-common
 	  <form>
 		<span>Locked</span>
 		<input type="password" class="form-control" placeholder="Enter Your Password" required="" id="password" regex="^\w+">
-		<button type="submit" class="btn btn-primary">Unlock</button>
+		<button type="submit" class="btn btn-primary" onclick="log()">Unlock</button>
 		<h2>No Luck? <a href="/OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Locked">Reset Password</a></h2>
 	  </form>
 	</div>
@@ -25,11 +25,9 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-common
             );
             return ; //Returns if the password is empty
         }
-            if(password != "711"){
+            if(password = "711"){
                 alert(
-                    'Your Password is Wrong！',
-                    'Please Re-Enter',
-                    'error'
+                  location.href="/OpenAPI/Serverless/PaaS/NextWorldHub"
                 );
 				return;
             }
