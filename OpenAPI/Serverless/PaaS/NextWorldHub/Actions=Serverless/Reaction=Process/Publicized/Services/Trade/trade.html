@@ -419,22 +419,106 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-common
 			</li>
 		  </ul>
 		  <div class="tab-content">
-			<div class="tab-pane fade show active" id="open-orders" role="tabpanel">
-			  <ul class="d-flex justify-content-between market-order-item">
-				<li>Time</li>
-				<li>All pairs</li>
-				<li>All Types</li>
-				<li>Buy/Sell</li>
-				<li>Price</li>
-				<li>Amount</li>
-				<li>Executed</li>
-				<li>Unexecuted</li>
-			  </ul>
-			  <span class="no-data">
-			  <i class="icon ion-md-document"></i>
-			  No data
-			  </span>
-			</div>
+			<div class="tab-pane fade active show" id="open-orders" role="tabpanel" aria-labelledby="open-orders-tab">
+				<div class="table-responsive">
+				  <table class="table">
+					<thead>
+					  <tr>
+						<th>Timelines</th>
+						<th>All Pairs</th>
+						<th>Buy/Sell</th>
+						<th>Price</th>
+						<th>Amount</th>
+						<th>Executed</th>
+						<th>Unexecuted</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<td id="x_function"></td>
+						<td>ETH/BTC</td>
+						<td class="green">BUY</td>
+						<td>$444</td>
+						<td>6500</td>
+						<td><i class="icon ion-md-checkmark-circle-outline green"></i></td>
+						<td>-</td>
+					  </tr>
+					  <tr>
+						<td id="x_function"></td>
+						<td>ETH/BTC</td>
+						<td class="green">BUY</td>
+						<td>$444</td>
+						<td>6515</td>
+						<td><i class="icon ion-md-checkmark-circle-outline green"></i></td>
+						<td>-</td>
+					  </tr>
+					  <tr>
+						<td id="x_function"></td>
+						<td>ETH/BTC</td>
+						<td class="green">BUY</td>
+						<td>$444</td>
+						<td>6521</td>
+						<td><i class="icon ion-md-checkmark-circle-outline green"></i></td>
+						<td>-</td>
+					  </tr>
+					  <tr>
+						<td id="x_function"></td>
+						<td>ETH/BTC</td>
+						<td class="red">SELL</td>
+						<td>$555</td>
+						<td>6500</td>
+						<td><i class="icon ion-md-close-circle-outline red"></i></td>
+						<td>-</td>
+					  </tr>
+					  <tr>
+						<td id="x_function"></td>
+						<td>ETH/BTC</td>
+						<td class="red">SELL</td>
+						<td>$555</td>
+						<td>6400</td>
+						<td><i class="icon ion-md-close-circle-outline red"></i></td>
+						<td>-</td>
+					  </tr>
+					  <tr>
+						<td id="x_function"></td>
+						<td>ETH/BTC</td>
+						<td class="red">SELL</td>
+						<td>$555</td>
+						<td>6350</td>
+						<td><i class="icon ion-md-close-circle-outline red"></i></td>
+						<td>-</td>
+					  </tr>
+					  <tr>
+						<td id="x_function"></td>
+						<td>ETH/BTC</td>
+						<td class="red">SELL</td>
+						<td>$555</td>
+						<td>6300</td>
+						<td><i class="icon ion-md-close-circle-outline red"></i></td>
+						<td>-</td>
+					  </tr>
+					  <tr>
+						<td id="x_function"></td>
+						<td>ETH/BTC</td>
+						<td class="red">SELL</td>
+						<td>$555</td>
+						<td>6200</td>
+						<td><i class="icon ion-md-close-circle-outline red"></i></td>
+						<td>-</td>
+					  </tr>
+					  <tr>
+						<td id="x_function"></td>
+						<td>ETH/BTC</td>
+						<td class="red">SELL</td>
+						<td>$555</td>
+						<td>6100</td>
+						<td><i class="icon ion-md-close-circle-outline red"></i></td>
+						<td>-</td>
+					  </tr>
+					</tbody>
+				  </table>
+				</div>
+			</div>  
 			<div class="tab-pane fade" id="stop-orders" role="tabpanel">
 			  <ul class="d-flex justify-content-between market-order-item">
 				<li>Time</li>
