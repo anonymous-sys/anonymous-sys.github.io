@@ -5,11 +5,12 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-global-view
 
 <div class="vh-100 d-flex justify-content-center">
 	<div class="form-access my-auto">
+    <img src="/OpenAPI/Serverless/PaaS/NextWorldHub/assets/resource/common/nextworldhub-v3.svg" alt="Next World Hub"><br><br>
 	  <form>
-		<span>Locked</span>
+		<span><i class="icon ion-md-lock-combination" style="font-size: 22px;"></i> Locked</span>
 		<input type="password" class="form-control" placeholder="API Keys" id="password" regex="^\w+" maxlength="10">
-		<button type="submit" class="btn btn-primary" onclick="x_function()">Unlock</button>
-		<h2>No Luck? <a href="/OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Locked">Reset Password</a></h2>
+		<button type="submit" class="btn btn-primary" onclick="x_function()"><i class="icon ion-md-key" style="font-size: 22px;"></i> Unlocked</button>
+		<h2>No Lock? <a href="/OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Locked"> Reset Kyes</a></h2>
 	  </form>
 	</div>
   </div>
@@ -18,15 +19,15 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-global-view
     function x_function() {
       var password = $("#password").val();
       if (password == "" && password == " ") {
-        alert('API Keys Cannot Be Empty, Please Re-Enter :(');
-        return console.log();
+        alert('⚠️ : \u0041\u0050\u0049\u0020\u004b\u0065\u0079\u0073\u0020\u0043\u0061\u006e\u006e\u006f\u0074\u0020\u0042\u0065\u0020\u0045\u006d\u0070\u0074\u0079\u002c\u0020\u0050\u006c\u0065\u0061\u0073\u0065\u0020\u0052\u0065\u002d\u0045\u006e\u0074\u0065\u0072\u0020\u003a\u0028');
+        return false;
       }
-      if (password == "0000") {
+      if (password == "\u0030\u0030\u0030\u0030") {
         var functions = window.location.href = "/OpenAPI/Serverless/PaaS/NextWorldHub";
         alert('Welcome Back NextWorldHub!', functions);
-        return console.log();
+        return;
       } else {
-        alert('API Keys Error, Please Re-Enter :(');
+        alert('⚠️ : \u0041\u0050\u0049\u0020\u004b\u0065\u0079\u0073\u0020\u0045\u0072\u0072\u006f\u0072\u002c\u0020\u0050\u006c\u0065\u0061\u0073\u0065\u0020\u0052\u0065\u002d\u0045\u006e\u0074\u0065\u0072\u0020\u003a\u0028');
         return false;
       }
     }
