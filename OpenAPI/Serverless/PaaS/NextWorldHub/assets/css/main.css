@@ -13,8 +13,9 @@
 @import url("../css/bootstrap.min.css");
 @import url("../css/ionicons.min.css");
 @import url("../css/jquery.mCustomScrollbar.min.css");
+
 body {
-    font-family: 'Overpass', sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 14px;
     line-height: 1.5;
     color: #18214D;
@@ -1261,6 +1262,22 @@ tbody.ob-heading {
     padding: 10px 15px!important;
 }
 
+#dark a {
+    color: #26de81;
+}
+
+#dark a:hover {
+    color: #187f4b;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#dark .btn-primary:hover {
+    color: #fff;
+    background-color: #187f4b;
+    border-color: #26de81;
+}
+
 .no-data {
     position: absolute;
     right: 48%;
@@ -1804,6 +1821,7 @@ tbody.ob-heading {
 #dark
 {
     background: #19232B;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 #dark header {
@@ -1905,6 +1923,10 @@ tbody.ob-heading {
 
 #dark .red {
     color: #ff231f;
+}
+
+#dark .yellow {
+    color: #ffc107;
 }
 
 #dark .market-pairs .nav {
