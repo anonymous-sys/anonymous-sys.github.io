@@ -18,7 +18,7 @@
     <script src="assets/js/amcharts.min.js"></script>
     <script src="assets/js/jquery.mCustomScrollbar.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script>
+    <script type="text/javascript">
       function x_function(){
       var now = new Date();
       var seconds = now.getSeconds();
@@ -29,7 +29,6 @@
       seconds = "00:"+seconds; 
       }
       document.getElementById('x_function').innerHTML = seconds;
-      /**document.getElementsByClassName("x_function").innerHTML = seconds;**/
       setTimeout('x_function()', 1000);
       }
       x_function();

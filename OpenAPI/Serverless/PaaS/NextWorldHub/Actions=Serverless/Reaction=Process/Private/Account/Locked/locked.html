@@ -14,19 +14,20 @@ layout: Serverless/PaaS/nextworldhub/nextworldhub-global-view
 	</div>
   </div>
 
-  <script>
-function x_function() {
-    var password = $("#password").val();
-    if (password == "" && password == " ") {
-        alert('Password Cannot Be Empty, Please Re-Enter :(');
+  <script type="text/javascript">
+    function x_function() {
+      var password = $("#password").val();
+      if (password == "" && password == " ") {
+        alert('API Keys Cannot Be Empty, Please Re-Enter :(');
+        return console.log();
+      }
+      if (password == "0000") {
+        var functions = window.location.href = "/OpenAPI/Serverless/PaaS/NextWorldHub";
+        alert('Welcome Back NextWorldHub!', functions);
+        return console.log();
+      } else {
+        alert('API Keys Error, Please Re-Enter :(');
         return false;
+      }
     }
-    if (password == "711") {
-        alert('Welcome Back NextWorldHub!');
-        window.location.replace("https://www.runoob.com");
-    } else {
-        alert('Command Error, Please Re-Enter :(');
-        return false;
-    }
-}
   </script>
