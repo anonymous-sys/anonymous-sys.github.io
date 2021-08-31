@@ -41,6 +41,17 @@ nextworldhub_platform_(core):
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Error/404
     label: Error
 
+nextworldhub_platform_(services):
+  -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Public/Services/Trade
+    label: Trade
+  -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Public/Services/Chart
+    label: Chart
+  -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Public/Services/Markets
+    label: Markets
+    
 nextworldhub_platform_(actions):
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Settings

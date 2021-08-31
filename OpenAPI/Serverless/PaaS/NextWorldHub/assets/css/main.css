@@ -1458,7 +1458,7 @@ tbody.ob-heading {
 
 .market-capital-ticker .markets-capital-item {
     height: 96.2%;
-    margin-bottom: 5px;
+    margin-bottom: 9px;
 }
 
 .form-access form {
@@ -2255,7 +2255,8 @@ tbody.ob-heading {
 
 #dark .markets-capital-item {
     box-shadow: 0 0 10px 0 #131722;
-    border: 1px solid #2a2e39;
+    border: 1px solid #0f161c;
+    background: repeating-linear-gradient(95deg, #0f161c, #19232b 100%);
 }
 
 #dark .markets-capital-item h2,
