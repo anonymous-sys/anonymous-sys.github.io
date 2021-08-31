@@ -1,38 +1,32 @@
 ---
 permalink: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Locked
-layout: Serverless/PaaS/nextworldhub/nextworldhub-common
+layout: Serverless/PaaS/nextworldhub/nextworldhub-global-view
 ---
+
 <div class="vh-100 d-flex justify-content-center">
 	<div class="form-access my-auto">
 	  <form>
 		<span>Locked</span>
-		<input type="password" class="form-control" placeholder="Enter Your Password" required="" id="password" regex="^\w+">
-		<button type="submit" class="btn btn-primary" onclick="log()">Unlock</button>
+		<input type="password" class="form-control" placeholder="API Keys" id="password" regex="^\w+" maxlength="10">
+		<button type="submit" class="btn btn-primary" onclick="x_function()">Unlock</button>
 		<h2>No Luck? <a href="/OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Private/Account/Locked">Reset Password</a></h2>
 	  </form>
 	</div>
   </div>
 
   <script>
-    //Logon button Event
-    function log(){
-        var password = $("#password").val(); //Get Password
-        if(password==""){
-            alert(
-                    'Your Password Cannot Be Empty!',
-                    'Please Re-Enter',
-                    'error'
-            );
-            return ; //Returns if the password is empty
-        }
-            if(password = "711"){
-                alert(
-                  location.href="/OpenAPI/Serverless/PaaS/NextWorldHub"
-                );
-				return;
-            }
-	    $(".btn btn-primary").click(function(){ 
-		    location.href="/OpenAPI/Serverless/PaaS/NextWorldHub"
-	    });
+function x_function() {
+    var password = $("#password").val();
+    if (password == "" && password == " ") {
+        alert('Password Cannot Be Empty, Please Re-Enter :(');
+        return false;
     }
-</script>
+    if (password == "711") {
+        alert('Welcome Back NextWorldHub!');
+        window.location.replace("https://www.runoob.com");
+    } else {
+        alert('Command Error, Please Re-Enter :(');
+        return false;
+    }
+}
+  </script>
