@@ -43,6 +43,9 @@ nextworldhub_platform_(core):
 
 nextworldhub_platform_(services):
   -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange
+    label: Fluid Exchange
+  -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Trade
     label: Trade
   -
@@ -51,7 +54,7 @@ nextworldhub_platform_(services):
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Markets
     label: Markets
-    
+
 nextworldhub_platform_(actions):
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Privatized/Account/Settings

@@ -8,13 +8,16 @@
     <div class="navbar-collapse collapse" id="headerMenu">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item"><a aria-current="page" href="/" class="router-link-active router-link-exact-active nav-link active">Explorer</a></li>
-        <li class="nav-item"><a class="nav-link" href="/OpenAPI/Serverless/PaaS/NextWorldHub">Exchange</a></li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Exchange</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/OpenAPI/Serverless/PaaS/NextWorldHub">Live Exchange Hub</a>
+            <a class="dropdown-item" href="/OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Exchange/FluidExchange">Fluid Exchange Hub</a>
+          </div>
+        </li>
         <li class="nav-item"><a class="nav-link" href="/OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Chart">Chart</a></li>
         <li class="nav-item"><a class="nav-link" href="/OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Trade">Trade</a></li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Markets
-          </a>
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Markets</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="markets-dark.html">Markets</a>
             <a class="dropdown-item" href="market-capital-dark.html">Markets Line</a>
