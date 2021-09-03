@@ -3,4 +3,615 @@ permalink: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Pro
 layout: Serverless/PaaS/nextworldhub/nextworldhub-common
 ---
 
-<h1>Fluid Exchange</h1>
+<div class="container-fluid p-0">
+	<div class="row no-gutters">
+	  <div class="col-md-3">
+		<div class="market-pairs" style="border: 0px solid #0f161c; border-radius: 0;">
+		  <div class="input-group">
+			<div class="input-group-prepend">
+			  <span class="input-group-text" id="inputGroup-sizing-sm"><i class="icon ion-md-search"></i></span>
+			</div>
+			<input type="text" class="form-control" placeholder="Search" aria-describedby="inputGroup-sizing-sm">
+		  </div>
+		  <ul class="nav nav-pills" role="tablist" style="margin-bottom: 7px;">
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#STAR" role="tab" aria-selected="true"><i
+				class="icon ion-md-star"></i></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link active" data-toggle="pill" href="#BTC" role="tab" aria-selected="true">BTC</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#ETH" role="tab" aria-selected="false">ETH</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#NEO" role="tab" aria-selected="false">NEO</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#USDT" role="tab" aria-selected="false">USDT</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#DAI" role="tab" aria-selected="false">DAI</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#PAX" role="tab" aria-selected="false">PAX</a>
+			</li>
+		  </ul>
+		  <!-- TradingView Widget BEGIN -->
+		  <div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+			  {
+			  "width": "100%",
+			  "height": "828",
+			  "defaultColumn": "performance",
+			  "screener_type": "crypto_mkt",
+			  "displayCurrency": "USD",
+			  "colorTheme": "dark",
+			  "isTransparent": true,
+			  "locale": "en"
+			  }
+			</script>
+		  </div>
+		  <!-- TradingView Widget END -->
+		</div>
+	  </div>
+	  <div class="col-md-6">
+		<div class="main-chart">
+		  <!-- TradingView Widget BEGIN -->
+		  <div class="tradingview-widget-container">
+			<div id="tradingview_e8053"></div>
+			<script src="https://s3.tradingview.com/tv.js"></script>
+			<script>
+			  new TradingView.widget(
+				{
+				  "width": "100%",
+				  "height": 550,
+				  "symbol": "BITSTAMP:BTCUSD",
+				  "interval": "1",
+				  "timezone": "America/New_York",
+				  "isTransparent": true,
+				  /**"timezone": "Etc/UTC",**/
+				  "theme": "dark",
+				  "style": "3",
+				  "locale": "en",
+				  "toolbar_bg": "#43CE65",
+				  "enable_publishing": false,
+				  "withdateranges": true,
+				  "hide_side_toolbar": false,
+				  "allow_symbol_change": true,
+				  "show_popup_button": false,
+				  "details": true,
+				  "popup_width": "1000",
+				  "popup_height": "650",
+				  "studies": [
+					"IchimokuCloud@tv-basicstudies",
+					"KLTNR@tv-basicstudies",
+					"MAExp@tv-basicstudies",
+					"MAWeighted@tv-basicstudies",
+					"PivotPointsHighLow@tv-basicstudies",
+					"VWAP@tv-basicstudies",
+					"MAVolumeWeighted@tv-basicstudies",
+					"WilliamsAlligator@tv-basicstudies",
+					"WilliamsFractal@tv-basicstudies"
+				  ],
+				  "container_id": "tradingview_e8053"
+				}
+			  );
+			</script>
+		  </div>
+		  <!-- TradingView Widget END -->
+		</div>
+		<div class="market-trade" style="border: 0px solid #0f161c; border-radius: 0;">
+		  <ul class="nav nav-pills" role="tablist">
+			<li class="nav-item">
+			  <a class="nav-link active" data-toggle="pill" href="#pills-trade-limit" role="tab"
+				aria-selected="true">Limit</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#pills-market" role="tab" aria-selected="false">Market</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#pills-stop-limit" role="tab" aria-selected="false">Stop
+			  Limit</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#pills-stop-market" role="tab" aria-selected="false">Stop
+			  Market</a>
+			</li>
+		  </ul>
+		  <div class="tab-content">
+			<div class="tab-pane fade show active" id="pills-trade-limit" role="tabpanel">
+			  <div class="d-flex justify-content-between">
+				<div class="market-trade-buy">
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Price">
+					<div class="input-group-append">
+					  <span class="input-group-text">BTC</span>
+					</div>
+				  </div>
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Amount">
+					<div class="input-group-append">
+					  <span class="input-group-text">ETH</span>
+					</div>
+				  </div>
+				  <ul class="market-trade-list">
+					<li><a href="#">25%</a></li>
+					<li><a href="#">50%</a></li>
+					<li><a href="#">75%</a></li>
+					<li><a href="#">100%</a></li>
+				  </ul>
+				  <p>Available: <span>0 BTC = 0 USD</span></p>
+				  <p>Volume: <span>0 BTC = 0 USD</span></p>
+				  <p>Margin: <span>0 BTC = 0 USD</span></p>
+				  <p>Fee: <span>0 BTC = 0 USD</span></p>
+				  <button class="btn buy">Buy</button>
+				</div>
+				<div class="market-trade-sell">
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Price">
+					<div class="input-group-append">
+					  <span class="input-group-text">BTC</span>
+					</div>
+				  </div>
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Amount">
+					<div class="input-group-append">
+					  <span class="input-group-text">ETH</span>
+					</div>
+				  </div>
+				  <ul class="market-trade-list">
+					<li><a href="#">25%</a></li>
+					<li><a href="#">50%</a></li>
+					<li><a href="#">75%</a></li>
+					<li><a href="#">100%</a></li>
+				  </ul>
+				  <p>Available: <span>0 BTC = 0 USD</span></p>
+				  <p>Volume: <span>0 BTC = 0 USD</span></p>
+				  <p>Margin: <span>0 BTC = 0 USD</span></p>
+				  <p>Fee: <span>0 BTC = 0 USD</span></p>
+				  <button class="btn sell">Sell</button>
+				</div>
+			  </div>
+			</div>
+			<div class="tab-pane fade" id="pills-market" role="tabpanel">
+			  <div class="d-flex justify-content-between">
+				<div class="market-trade-buy">
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Price">
+					<div class="input-group-append">
+					  <span class="input-group-text">BTC</span>
+					</div>
+				  </div>
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Amount">
+					<div class="input-group-append">
+					  <span class="input-group-text">ETH</span>
+					</div>
+				  </div>
+				  <ul class="market-trade-list">
+					<li><a href="#">25%</a></li>
+					<li><a href="#">50%</a></li>
+					<li><a href="#">75%</a></li>
+					<li><a href="#">100%</a></li>
+				  </ul>
+				  <p>Available: <span>0 BTC = 0 USD</span></p>
+				  <p>Volume: <span>0 BTC = 0 USD</span></p>
+				  <p>Margin: <span>0 BTC = 0 USD</span></p>
+				  <p>Fee: <span>0 BTC = 0 USD</span></p>
+				  <button class="btn buy">Buy</button>
+				</div>
+				<div class="market-trade-sell">
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Price">
+					<div class="input-group-append">
+					  <span class="input-group-text">BTC</span>
+					</div>
+				  </div>
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Amount">
+					<div class="input-group-append">
+					  <span class="input-group-text">ETH</span>
+					</div>
+				  </div>
+				  <ul class="market-trade-list">
+					<li><a href="#">25%</a></li>
+					<li><a href="#">50%</a></li>
+					<li><a href="#">75%</a></li>
+					<li><a href="#">100%</a></li>
+				  </ul>
+				  <p>Available: <span>0 BTC = 0 USD</span></p>
+				  <p>Volume: <span>0 BTC = 0 USD</span></p>
+				  <p>Margin: <span>0 BTC = 0 USD</span></p>
+				  <p>Fee: <span>0 BTC = 0 USD</span></p>
+				  <button class="btn sell">Sell</button>
+				</div>
+			  </div>
+			</div>
+			<div class="tab-pane fade" id="pills-stop-limit" role="tabpanel">
+			  <div class="d-flex justify-content-between">
+				<div class="market-trade-buy">
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Price">
+					<div class="input-group-append">
+					  <span class="input-group-text">BTC</span>
+					</div>
+				  </div>
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Amount">
+					<div class="input-group-append">
+					  <span class="input-group-text">ETH</span>
+					</div>
+				  </div>
+				  <ul class="market-trade-list">
+					<li><a href="#">25%</a></li>
+					<li><a href="#">50%</a></li>
+					<li><a href="#">75%</a></li>
+					<li><a href="#">100%</a></li>
+				  </ul>
+				  <p>Available: <span>0 BTC = 0 USD</span></p>
+				  <p>Volume: <span>0 BTC = 0 USD</span></p>
+				  <p>Margin: <span>0 BTC = 0 USD</span></p>
+				  <p>Fee: <span>0 BTC = 0 USD</span></p>
+				  <button class="btn buy">Buy</button>
+				</div>
+				<div class="market-trade-sell">
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Price">
+					<div class="input-group-append">
+					  <span class="input-group-text">BTC</span>
+					</div>
+				  </div>
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Amount">
+					<div class="input-group-append">
+					  <span class="input-group-text">ETH</span>
+					</div>
+				  </div>
+				  <ul class="market-trade-list">
+					<li><a href="#">25%</a></li>
+					<li><a href="#">50%</a></li>
+					<li><a href="#">75%</a></li>
+					<li><a href="#">100%</a></li>
+				  </ul>
+				  <p>Available: <span>0 BTC = 0 USD</span></p>
+				  <p>Volume: <span>0 BTC = 0 USD</span></p>
+				  <p>Margin: <span>0 BTC = 0 USD</span></p>
+				  <p>Fee: <span>0 BTC = 0 USD</span></p>
+				  <button class="btn sell">Sell</button>
+				</div>
+			  </div>
+			</div>
+			<div class="tab-pane fade" id="pills-stop-market" role="tabpanel">
+			  <div class="d-flex justify-content-between">
+				<div class="market-trade-buy">
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Price">
+					<div class="input-group-append">
+					  <span class="input-group-text">BTC</span>
+					</div>
+				  </div>
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Amount">
+					<div class="input-group-append">
+					  <span class="input-group-text">ETH</span>
+					</div>
+				  </div>
+				  <ul class="market-trade-list">
+					<li><a href="#">25%</a></li>
+					<li><a href="#">50%</a></li>
+					<li><a href="#">75%</a></li>
+					<li><a href="#">100%</a></li>
+				  </ul>
+				  <p>Available: <span>0 BTC = 0 USD</span></p>
+				  <p>Volume: <span>0 BTC = 0 USD</span></p>
+				  <p>Margin: <span>0 BTC = 0 USD</span></p>
+				  <p>Fee: <span>0 BTC = 0 USD</span></p>
+				  <button class="btn buy">Buy</button>
+				</div>
+				<div class="market-trade-sell">
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Price">
+					<div class="input-group-append">
+					  <span class="input-group-text">BTC</span>
+					</div>
+				  </div>
+				  <div class="input-group">
+					<input type="number" class="form-control" placeholder="Amount">
+					<div class="input-group-append">
+					  <span class="input-group-text">ETH</span>
+					</div>
+				  </div>
+				  <ul class="market-trade-list">
+					<li><a href="#">25%</a></li>
+					<li><a href="#">50%</a></li>
+					<li><a href="#">75%</a></li>
+					<li><a href="#">100%</a></li>
+				  </ul>
+				  <p>Available: <span>0 BTC = 0 USD</span></p>
+				  <p>Volume: <span>0 BTC = 0 USD</span></p>
+				  <p>Margin: <span>0 BTC = 0 USD</span></p>
+				  <p>Fee: <span>0 BTC = 0 USD</span></p>
+				  <button class="btn sell">Sell</button>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-md-3">
+		<div class="order-book" style="border: 0px solid #0f161c; border-radius: 0;">
+		  <!-- TradingView Widget BEGIN -->
+		  <div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript"
+			  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+			  {
+			  "symbol": "BINANCE:BTCUSDT",
+			   "width": "100%",
+			  "height": 198,
+				"locale": "en",
+				  "dateRange": "1d",
+					"colorTheme": "dark",
+					  "trendLineColor": "rgba(41, 98, 255, 1)",
+						"underLineColor": "rgba(41, 98, 255, 0.3)",
+						  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+							"isTransparent": true,
+							  "autosize": false,
+								"largeChartUrl": ""
+			  }
+			</script>
+		  </div>
+		  <!-- TradingView Widget END -->
+		  <!-- TradingView Widget BEGIN -->
+		  <div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript"
+			  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+			  {
+			  "symbol": "BINANCE:ETHUSDT",
+			   "width": "100%",
+			  "height": 175,
+				"locale": "en",
+				  "dateRange": "3M",
+					"colorTheme": "dark",
+					  "trendLineColor": "rgba(41, 98, 255, 1)",
+						"underLineColor": "rgba(41, 98, 255, 0.3)",
+						  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+							"isTransparent": true,
+							  "autosize": false,
+								"largeChartUrl": ""
+			  }
+			</script>
+		  </div>
+		  <!-- TradingView Widget END -->
+		  <!-- TradingView Widget BEGIN -->
+		  <div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript"
+			  src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+			  {
+			  "symbol": "BINANCE:DOGEUSDT",
+			   "width": "100%",
+			  "height": 175,
+				"locale": "en",
+				  "dateRange": "1d",
+					"colorTheme": "dark",
+					  "trendLineColor": "rgba(41, 98, 255, 1)",
+						"underLineColor": "rgba(41, 98, 255, 0.3)",
+						  "underLineBottomColor": "rgba(41, 98, 255, 0)",
+							"isTransparent": true,
+							  "autosize": false,
+								"largeChartUrl": ""
+			  }
+			</script>
+		  </div>
+		  <!-- TradingView Widget END -->
+		</div>
+		<div class="market-history" style="border: 0px solid #0f161c; border-radius: 0;">
+		  <ul class="nav nav-pills" role="tablist" style="background: repeating-linear-gradient(95deg, #19232b, #19232b 100%);">
+			<li class="nav-item">
+			  <a class="nav-link active" data-toggle="pill" href="#recent-trades" role="tab" aria-selected="true">Recent Trades</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#market-depth" role="tab" aria-selected="false">Market Depth</a>
+			</li>
+		  </ul>
+		  <div class="tab-content">
+			<div class="tab-pane fade show active" id="recent-trades" role="tabpanel">
+			  <table class="table">
+				<thead>
+				  <tr>
+					<th>Time</th>
+					<th>Price(BTC)</th>
+					<th>Amount(ETH)</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="red">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="green">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="green">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="red">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="green">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="green">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="green">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="red">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="red">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="green">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="green">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="red">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="green">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				  <tr>
+					<td>13:03:53</td>
+					<td class="red">0.020191</td>
+					<td>0.2155045</td>
+				  </tr>
+				</tbody>
+			  </table>
+			</div>
+			<div class="tab-pane fade" id="market-depth" role="tabpanel">
+			  <div id="darkDepthChart"></div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-md-3">
+		<div class="market-news" style="border: 0px solid #0f161c; border-radius: 0;">
+		  <div class="tradingview-widget-container">
+			<div class="tradingview-widget-container__widget"></div>
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js"
+			  async>
+			  {
+			  "colorTheme": "dark",
+			   "isTransparent": true,
+			  "displayMode": "regular",
+				"width": "100%",
+				  "height": 392,
+					"locale": "en"
+			  }
+			</script>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-md-9">
+		<div class="market-history market-order" style="border: 0px solid #0f161c; border-radius: 0;">
+		  <ul class="nav nav-pills" role="tablist">
+			<li class="nav-item">
+			  <a class="nav-link active" data-toggle="pill" href="#open-orders" role="tab" aria-selected="true">Open
+			  Orders</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#stop-orders" role="tab" aria-selected="false">Closed
+			  Orders</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#order-history" role="tab" aria-selected="false">Order
+			  history</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-toggle="pill" href="#trade-history" role="tab" aria-selected="false">Balance</a>
+			</li>
+		  </ul>
+		  <div class="tab-content">
+			<div class="tab-pane fade show active" id="open-orders" role="tabpanel">
+			  <ul class="d-flex justify-content-between market-order-item">
+				<li>Time</li>
+				<li>All pairs</li>
+				<li>All Types</li>
+				<li>Buy/Sell</li>
+				<li>Price</li>
+				<li>Amount</li>
+				<li>Executed</li>
+				<li>Unexecuted</li>
+			  </ul>
+			  <span class="no-data">
+			  <i class="icon ion-md-document"></i>
+			  No data
+			  </span>
+			</div>
+			<div class="tab-pane fade" id="stop-orders" role="tabpanel">
+			  <ul class="d-flex justify-content-between market-order-item">
+				<li>Time</li>
+				<li>All pairs</li>
+				<li>All Types</li>
+				<li>Buy/Sell</li>
+				<li>Price</li>
+				<li>Amount</li>
+				<li>Executed</li>
+				<li>Unexecuted</li>
+			  </ul>
+			  <span class="no-data">
+			  <i class="icon ion-md-document"></i>
+			  No data
+			  </span>
+			</div>
+			<div class="tab-pane fade" id="order-history" role="tabpanel">
+			  <ul class="d-flex justify-content-between market-order-item">
+				<li>Time</li>
+				<li>All pairs</li>
+				<li>All Types</li>
+				<li>Buy/Sell</li>
+				<li>Price</li>
+				<li>Amount</li>
+				<li>Executed</li>
+				<li>Unexecuted</li>
+			  </ul>
+			  <span class="no-data">
+			  <i class="icon ion-md-document"></i>
+			  No data
+			  </span>
+			</div>
+			<div class="tab-pane fade" id="trade-history" role="tabpanel">
+			  <ul class="d-flex justify-content-between market-order-item">
+				<li>Time</li>
+				<li>All pairs</li>
+				<li>All Types</li>
+				<li>Buy/Sell</li>
+				<li>Price</li>
+				<li>Amount</li>
+				<li>Executed</li>
+				<li>Unexecuted</li>
+			  </ul>
+			  <span class="no-data">
+			  <i class="icon ion-md-document"></i>
+			  No data
+			  </span>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+</div>
