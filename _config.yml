@@ -54,6 +54,18 @@ nextworldhub_platform_(services):
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Markets
     label: Markets
+  -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Matrix_Cloud/xxx
+    label: 
+  -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Matrix_Cloud/xxx
+    label: 
+  -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Matrix_Cloud/xxx
+    label: 
+  -
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Matrix_Cloud/xxx
+    label: 
 
 nextworldhub_platform_(actions):
   -
@@ -64,7 +76,7 @@ nextworldhub_platform_(actions):
     label: Profile
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Privatized/Account/Wallets
-    label: Wallet
+    label: Wallets
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Privatized/Account/Locked
     label: Locked
