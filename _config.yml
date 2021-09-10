@@ -55,17 +55,17 @@ nextworldhub_platform_(services):
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Markets
     label: Markets
   -
-    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Matrix_Cloud/xxx
-    label: 
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/MatrixCloud/TechnicalAnalysis
+    label: Technical Analysis
   -
-    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Matrix_Cloud/xxx
-    label: 
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/MatrixCloud/ForexCrossRates
+    label: Forex Cross Rates
   -
-    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Matrix_Cloud/xxx
-    label: 
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/MatrixCloud/SymbolInfo
+    label: Symbol Info
   -
-    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/Matrix_Cloud/xxx
-    label: 
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/MatrixCloud/ForexHeatMap
+    label: Forex Heat Map
 
 nextworldhub_platform_(actions):
   -
