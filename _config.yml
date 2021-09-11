@@ -61,8 +61,8 @@ nextworldhub_platform_(services):
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/MatrixCloud/ForexCrossRates
     label: Forex Cross Rates
   -
-    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/MatrixCloud/SymbolInfo
-    label: Symbol Info
+    href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/MatrixCloud/CompanyInfo
+    label: Company Info
   -
     href: /OpenAPI/Serverless/PaaS/NextWorldHub/Actions=Serverless/Reaction=Process/Publicized/Services/MatrixCloud/ForexHeatMap
     label: Forex Heat Map
