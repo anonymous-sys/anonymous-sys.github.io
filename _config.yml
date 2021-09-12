@@ -28,6 +28,11 @@ navs:
     href: /marketplace
     label: Marketplace
 
+# Workload settings
+workload_platform_(core):
+  -
+    href: /OpenAPI/Serverless/PaaS/Workload
+    label: Workload
 
 # NextWorldHub settings
 nextworldhub_favicon: "/OpenAPI/Serverless/PaaS/NextWorldHub/assets/resource/icon/favicon.png"
