@@ -88,7 +88,7 @@ nextworldhub_platform_(actions):
 
 backup_platform:
   -
-    href: /OpenAPI/?Actions=Serverless&Platform=PaaS&Products=NextWorldHub
+    href: /OpenAPI/?Actions=Serverless&Platform=PaaS&Products=NextWorldHub/https://simpleicons.org/
     label: Next World Hub
 
 # Build settings

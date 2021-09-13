@@ -9,6 +9,6 @@
 <div align="center">
   <img src="./.github/resource/anonymous_sys_org-v3.png" width="85%" alt="ANONYMOUS SYS - Organization" title="ANONYMOUS SYS - Organization"><br><br>
   <br>
-  <h4>ANONYMOUS SYS</h4>
+  <h4>-- WE ARE ANONYMOUS SYS. WE ARE LEGION. --</h4>
 </div>
 <br>
