@@ -1,6 +1,6 @@
 # ANON SYS - NETWORK STATION
 
-[![Document Update Time](https://img.shields.io/badge/Update%20Time-1%2F1%2F2022-darkorchid.svg?style=for-the-badge&logo=tor-browser&cacheSeconds=3600)]()
+[![Document Update Time](https://img.shields.io/badge/Update%20Time-1%2F1%2F2022-darkorchid.svg?style=for-the-badge&logo=tor-browser&cacheSeconds=3600&colorA=0c2170)]()
 [![GitHub Repo Size in Bytes](https://img.shields.io/github/repo-size/ccxt/ccxt.svg?style=for-the-badge&logo=adobe-creative-cloud&cacheSeconds=3600&colorA=f9d423&colorB=ff4e50&logoColor=000000)]()
 [![GitHub Release](https://img.shields.io/github/v/release/obsproject/obs-studio.svg?style=for-the-badge&logo=yamaha-motor-corporation&cacheSeconds=3600&colorA=c7ff00&colorB=3c4aed&logoColor=000000)]()
 [![License Source](https://img.shields.io/badge/License%20-GPL%203.0-brightgreen.svg?style=for-the-badge&logo=authy&cacheSeconds=3600&colorA=4481eb&colorB=04befe)]()
