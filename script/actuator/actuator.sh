@@ -23,7 +23,7 @@ echo "
 "
 
 echo "\n\n<Automated Execution Command 🕐  $(date +%00000:%S)>:  \$>_  ⚠️   START SERVICE ✅  "
-bundle exec jekyll serve --trace
+bundle exec jekyll serve --livereload --open-url --trace
 
 echo "\n\n 🍻  Congratulation Of You 🍻  When You Are Working, You Will Be Proud Of Your Worth, Keep Going!"
 
