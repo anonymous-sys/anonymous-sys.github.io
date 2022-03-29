@@ -15,4 +15,4 @@ issuehunt: # Replace with a single IssueHunt username
 otechie: # Replace with a single Otechie username
 lfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cloud-foundry
 # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2']
-custom: ['BTC Addr：bc1qv3yuhsqhs2wjstjqj6va3z84pvrar8jkme3der', 'ETH Addr：0x4CA3002dfA8145d7C57486e61581A363680F277c', 'XMR Addr：4AjwE2amUShWWe7Y5NbVbHcCaRVbftubyaMgy69MRjSWMyGa5XUgnfaS7Bncu1Et3RCLASN1k4vG1a5raoJS4uhqMdPXXoe']
+custom: ['BTC-ADDR：bc1qv3yuhsqhs2wjstjqj6va3z84pvrar8jkme3der', 'ETH-ADDR：0x4CA3002dfA8145d7C57486e61581A363680F277c', 'XMR-ADDR：4AjwE2amUShWWe7Y5NbVbHcCaRVbftubyaMgy69MRjSWMyGa5XUgnfaS7Bncu1Et3RCLASN1k4vG1a5raoJS4uhqMdPXXoe']
