@@ -1,8 +1,9 @@
-name: Remove Old Artifacts
+# every-day-for-one-am-remove-old-artifacts
+
+name: Every Day For One Am Remove Old Artifacts
 
 on:
   schedule:
-    # Every day at 1am
     - cron: '0 1 * * *'
 
 jobs:
@@ -11,7 +12,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
-    - name: Remove Old Artifacts
+    - name: Every Day For One Am Remove Old Artifacts
       uses: c-hive/gha-remove-artifacts@v1.2.0
       with:
         age: '1 month' # '<number> <unit>', e.g. 5 days, 2 years, 90 seconds, parsed by Moment.js
