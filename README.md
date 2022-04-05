@@ -11,3 +11,9 @@
   <h4 style="color: #31d278;"> -- WE ARE ANON SYS. WE ARE LEGION. -- </h4>
 </div>
 <br>
+
+<p dir="auto">This project exists thanks to all the people who contribute.
+  <a>
+    <img src="https://camo.githubusercontent.com/b223f6bad8c139bce4ea8f494d3e8961b2eaab3b69fafb76823cec9b1344b231/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6a656b796c6c2f636f6e7472696275746f72732e7376673f77696474683d38393026627574746f6e3d66616c7365" 
+  alt="ANON SYS Contributors" data-canonical-src="https://opencollective.com/jekyll/contributors.svg?width=890&amp;button=false" style="max-width: 100%;"></a>
+</p>
